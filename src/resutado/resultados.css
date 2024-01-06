@@ -1,0 +1,46 @@
+/*////////////////////////////////// Estilos para  resultados ///////////////////////////////////////////////////////7*/
+.imgcargada{
+    background-color: #ced4db;
+    width: 45%;
+    height: 350px;
+    margin: 1% 2.5%;
+}
+.muestraimagen{
+    border: #333;
+    background-color: #ced4db;
+    width: auto;
+    height: 50px;
+    margin: 1% 1%;
+}
+.result{
+    height: auto;
+}
+
+.imgencontrada{
+    background-color: #ced4db;
+    margin: 1% 2.5%;
+    height: 350px;
+    width: 45%;
+}
+.muestraimagen{
+    border: #333;
+    background-color: #ced4db;
+    width: auto;
+    height: 90%;
+    margin: 1% 1%;
+}
+.img{
+    margin: 1% 1%;
+}
+
+.contenedorderesultados {
+    border: 1px solid #49b1d7;
+    padding: 20px;
+    background-color: #49b1d7;
+    width:1200px;
+    height: 400px;
+  }
+    .crinferior{
+      display: flex;
+      text-align: center;
+    }

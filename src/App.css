@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #dbd3b6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #49b1d7 ; /* Cambia el color de fondo según tus preferencias */
+  color: #333333; /* Cambia el color de texto según tus preferencias */
+  padding: 10px 0; /* Añade espaciado interno para mejorar el aspecto */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+nav ul {
+  list-style-type: none; /* Elimina los puntos de lista */
+  padding: 0;
+  display: flex; /* Utiliza flexbox para mostrar los elementos en una fila horizontal */
+
+}
+
+nav li {
+  display: inline;
+  margin-right: 100px; /* Añade espacio entre elementos */
+}
+
+nav a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #fff; /* Cambia el color de texto según tus preferencias */
+  display: flex; /* Utiliza flexbox para centrar el contenido horizontalmente */
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  padding: 10px 20px; /* Espaciado interno de los botones */
+  border-radius: 5px; /* Bordes redondeados para los botones */
+
+}
+
+
+nav a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el mouse por encima */
+}
+
+nav ul li:nth-child(1) a {
+  background-color:  #49b1d7 ;
+  color: #333333;
+  border: 3px solid #1071e5; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
+  padding: 10px 20px; /* Espaciado interno de los botones */
+  border-radius: 5px; /* Bordes redondeados para los botones */
+  margin-left: 30px;
+  width: 150px; /* Ancho fijo para los botones (ajusta según tus necesidades) */
+}
+
+nav ul li:nth-child(2) a { 
+  background-color: #49b1d7 ;
+  color: #333333;
+  border: 3px solid #49b1d7; 
+  padding: 10px 20px; /* Espaciado interno de los botones */
+  border-radius: 5px; /* Bordes redondeados para los botones */
+  margin-left: -90px;
+  width: 150px; /* Ancho fijo para los botones (ajusta según tus necesidades) */
+}
+
+nav ul li:nth-child(3) a {
+  background-color:#49b1d7 ;
+  color: #333333;
+  border: 3px solid #49b1d7; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
+  padding: 10px 20px; /* Espaciado interno de los botones */
+  border-radius: 5px; /* Bordes redondeados para los botones */
+  margin-left: -90px;
+  width: 200px; /* Ancho fijo para los botones (ajusta según tus necesidades) */
+} 
+
+nav ul li:nth-child(4) a {
+  background-color:  #ced4db;
+  color: #333333;
+  border: 3px solid  #ced4db; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
+  padding: 10px 20px; /* Espaciado interno de los botones */
+  border-radius: 5px; /* Bordes redondeados para los botones */
+  margin-left: -10px;
+  width: 200px; /* Ancho fijo para los botones (ajusta según tus necesidades) */
+}
+
+nav ul li:nth-child(5) a {
+  background-color:  #ced4db;
+  color: #333333;
+  border: 3px solid  #ced4db; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
+  padding: 10px 20px; /* Espaciado interno de los botones */
+  border-radius: 5px; /* Bordes redondeados para los botones */
+  margin-left: -95px;
+  width: 200px; /* Ancho fijo para los botones (ajusta según tus necesidades) */
+  
+  
+}

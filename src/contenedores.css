@@ -1,0 +1,188 @@
+
+
+
+/*////////////////////////////////// Estilos para contenedor ///////////////////////////////////////////////////////7*/
+.contenedor {
+  border: 1px solid #49b1d7; /* Borde del contenedor */
+  padding: 20px; /* Espaciado interno del contenedor */
+  background-color: #49b1d7; /* Color de fondo del contenedor */
+
+  width: 800px; /* Ancho del contenedor */
+  height: 400px; /* Altura del contenedor */
+}
+/* En estilos.css */
+.contenedor-padre {
+  display: flex;
+  margin-top: 50px; 
+  height: 100vh; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+  color: #333;
+}
+
+.contenedor {
+  border: 1px solid #49b1d7;
+  padding: 20px;
+  background-color: #49b1d7;
+  width:1200px;
+  height: 400px;
+}
+.contenedorSuperior {
+  border: 1px solid #ced4db;
+  padding: 10px;
+  background-color: #ced4db;
+  width: 98%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+}
+  .seleccionarimg{
+    width:700px;
+  }
+    .busqueda{
+      display: flex;
+      align-items: left;
+      width: 200px;
+      height: 50px;
+      padding: 10px;
+      border: 1px solid #49b1d7;
+      border-radius: 5px;
+      background-color: #49b1d7;
+      margin-top:  1px;
+      color: #333;
+      align-items: center;
+      font-size: medium;
+      flex-direction: row; 
+
+    }
+    .contbusqueda{
+      display: flex;
+      width: 400px;
+    }
+        .lado{
+        display: flex;
+        flex-direction: row; 
+        width:auto;
+        background-color: #49b1d7;
+        flex-direction: row;
+        border: 1px solid #49b1d7;
+        height: 50px;
+        border-radius: 5px;
+        color: #333;
+        font-size: medium;
+        margin-left: 10px;
+        flex-direction: row;
+        align-items: center;
+        }
+          .botonbuscar{
+            margin-top:auto;
+            height: 30px;
+            align-items: center;
+            background-color: #333;
+            border-radius: 3px;
+            color: #ced4db;
+            font-size: medium;
+            text-align: center;
+            justify-content: center;
+            
+          }
+    .botonfoto{
+      width:auto;
+      height:90px;
+      background-color:#ced4db;
+      display: flex;
+    }
+      .tomarfoto{
+        display: flex;
+        width: auto;
+        height: 90px;
+      }
+        .nombreimagencaptura{
+          font-size: small;
+          color: #333;
+        }
+        .botoncam{
+          width: auto;
+          height: auto;
+          margin-top: 10%;
+        }
+.contenedor-inferior{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra verticalmente los elementos */
+}
+.contenedor2 {
+  border: 1px solid #ced4db;
+  padding: 10px;
+  background-color: #ced4db;
+  width: 20%; /* Ancho del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
+  height: 180px;/* Alto del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
+  display: flex;
+  margin-top: 30px;
+  margin-left: 0px;  
+  flex-direction: column; /* Cambia la dirección del flujo a vertical */
+} 
+.menu-vertical {
+  display: flex;
+  flex-direction: column; /* Orienta los elementos verticalmente */
+  align-items:first baseline; /* Alinea al principio verticalmente */
+}
+.menu-vertical a {
+  text-decoration: none;
+  background-color: #dbd3b6;
+  margin-top: 10px;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+  
+}
+.menu-vertical a:hover {
+  background-color: lightgray;
+}
+
+.contenedor3 {
+  border: 1px solid #ced4db;
+  padding: 10px;
+  background-color: #ced4db;
+  width: 80%; /* Ancho del contenedor 3 en relación al contenedor padre (ajusta según tus necesidades) */
+  height: 230px;/* Alto del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  justify-content: center;
+}
+  .fotos{
+    width: 100%;
+  }
+    .img{
+      justify-content: center;
+      margin: 10px 10px;
+    }
+
+
+/*///////resultados*/
+
+.contenedorderesultados {
+    border: 1px solid #49b1d7;
+    padding: 20px;
+    background-color: #49b1d7;
+    width:1200px;
+    height: 400px;
+  }
+    .crinferior{
+      display: flex;
+      text-align: center;
+    }
+  .contenedorSuperiorR {
+    border: 1px solid #ced4db;
+    padding: 10px;
+    background-color: #ced4db;
+    width: 98%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+  }
