@@ -24,14 +24,13 @@ function Seleccionarimg() {
 
   const buscar_imagen = () => {
     console.log('Buscando imágen...')
-    const ruta_base = 'http://20.241.183.28:5000/'
+    const ruta_base = 'http://20.124.148.180:5000/'
     const ruta_base2 = 'http://127.0.0.1:5000/'
     const formData = new FormData()
 
     formData.append('file', imagenCargada)
 
-    //checar ejemplo de fetch con post y cargar imágen
-    fetch(ruta_base2, 
+    fetch(ruta_base, 
       {
         method: 'POST',
         // headers: {
@@ -47,7 +46,7 @@ function Seleccionarimg() {
         console.log(data);
         console.log('Conexión exitosa');
         set_img_route(data.img_similar);
-        router('/resultado?rutaImg=' + data.img_similar); // Actualiza ruta
+        router('/resultado?rutaImg=' + ruta_base + data.img_similar); // Actualiza ruta
       } catch (error) {
         console.error('Error al procesar la respuesta JSON:', error);
       }
