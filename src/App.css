@@ -76,7 +76,7 @@ nav a:hover {
 nav ul li:nth-child(1) a {
   background-color:  #49b1d7 ;
   color: #333333;
-  border: 3px solid #1071e5; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
+  border: 3px solid #49b1d7; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
   padding: 10px 20px; /* Espaciado interno de los botones */
   border-radius: 5px; /* Bordes redondeados para los botones */
   margin-left: 30px;

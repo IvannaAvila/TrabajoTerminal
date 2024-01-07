@@ -1,0 +1,115 @@
+/*////////////////////////////////// Estilos para contenedor ///////////////////////////////////////////////////////7*/
+.contenedorpyr {
+    border: 1px solid #49b1d7; /* Borde del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #49b1d7; /* Color de fondo del contenedor */
+    width: 800px; /* Ancho del contenedor */
+    height: 400px; /* Altura del contenedor */
+  }
+  /* En estilos.css */
+  .contenedor-padrepyr {
+    display: flex;
+    margin-top: -70px; 
+    height: 100vh; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+  }
+  
+  .contenedorpyr {
+    border: 1px solid #49b1d7;
+    padding: 20px;
+    background-color: #49b1d7;
+    width:1200px;
+    height: 400px;
+   
+  }
+
+  .contenedorSuperiorpyr {
+    border: 5px solid #333333;
+    padding: 10px;
+    background-color: #ced4db;
+    width: 98%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#333333;
+  }
+  .contenedor-inferiorpyr {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 20px;
+
+  }
+    .contenedorInferiorpyr {
+      border: 5px solid #49b1d7;
+      padding: 10px;
+      background-color: #49b1d7;
+      width: 98%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+      height: 2000px;
+      /*display: flex;*/
+      align-items: center;
+      justify-content: left;
+      color:#333333;
+      
+
+    }
+     .pregunta-titulo{
+      border-bottom: 1px solid #333;
+      width: 97%;
+      text-align: left;
+      cursor: pointer; /* Cambia el cursor al hacer hover para indicar que es interactivo */
+      color: #333;
+    }
+      .pregunta-contenido{
+        width: 100%;
+        text-align: left;
+        background-color: #49b1d7;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    .PreguntaCliente{
+      margin-top: 20px;
+      height: 60px;
+      width: 80%;
+      font-size: medium;
+      background-color: #ced4db;
+      border-bottom: 4px solid #333;
+    }
+    .boton{
+        margin-top: 20px;
+        background-color: #dbd3b6;
+        border-radius: 10px;
+        height: 30px;
+        width: 100px;
+        justify-content: center;
+        font-size: medium;
+    }
+      
+    
+  .contenedorInferior1{
+      border: 5px solid #49b1d7;
+      padding: 10px;
+      background-color: #49b1d7;
+      width: 90%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color:#49b1d7;
+      margin-top: 10px;
+  }
+.RedesSocialespyr{
+  border: 5px solid #ced4db;  
+  background-color: #aacde9;
+  width: 90%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: auto;
+  color: #333;
+  margin-top: -180px;
+  display: flex;
+  justify-content:space-evenly;
+
+}

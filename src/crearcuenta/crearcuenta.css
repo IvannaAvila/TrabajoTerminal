@@ -1,0 +1,76 @@
+/*////////////////////////////////// Estilos para contenedor ///////////////////////////////////////////////////////7*/
+.contenedorcc {
+    border: 1px solid #49b1d7; /* Borde del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #49b1d7; /* Color de fondo del contenedor */
+    width: 800px; /* Ancho del contenedor */
+    height: 400px; /* Altura del contenedor */
+    margin: auto auto;
+  }
+  /* En estilos.css */
+  .contenedor-padrecc {
+    display: flex;
+    height: 100vh; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+  }
+  
+  .contenedorcc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #49b1d7;
+    padding: 20px;
+    background-color: #49b1d7;
+    width:1150px;
+    height: 80%;
+    color: #333;
+  
+   
+  }
+  .seccion1cc{
+    width: 320px;
+    height: 30px;
+    margin: 10px 10px;
+    border: 1px solid #ced4db;
+    background-color: #ced4db;
+    border-radius: 5px;
+    }
+  
+  .seccion2cc{
+    
+    width: 1000px;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid #ced4db;
+    border-radius: 5px;
+    background-color: #ced4db;
+    margin-top: 20px;
+  }
+  .imagencc{
+    margin-top: 20px;
+    display: flex;
+    background-color: #ced4db;
+    font-size: medium;
+    width: 80%;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+  .usuariocc{
+    background-color: #ced4db;
+    width: 80%;
+    display:flex;
+    justify-content: end; 
+      
+  }
+  .botoncc{
+    margin-top: 10px;
+    background-color: #dbd3b6;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+  }
+  .perfil{
+    width: auto;
+    height: auto;
+  }

@@ -1,0 +1,81 @@
+/*////////////////////////////////// Estilos para contenedor ///////////////////////////////////////////////////////7*/
+.contenedorac {
+    border: 1px solid #49b1d7; /* Borde del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #49b1d7; /* Color de fondo del contenedor */
+    width: 800px; /* Ancho del contenedor */
+    height: 400px; /* Altura del contenedor */
+  }
+  /* En estilos.css */
+  .contenedor-padreac {
+    display: flex;
+    margin-top: -70px; 
+    height: 100vh; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+  }
+  
+  .contenedorac {
+    border: 1px solid #49b1d7;
+    padding: 20px;
+    background-color: #49b1d7;
+    width:1200px;
+    height: 400px;
+   
+  }
+
+  .contenedorSuperiorac {
+    border: 5px solid #333333;
+    padding: 10px;
+    background-color: #ced4db;
+    width: 98%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#333333;
+  }
+  .contenedor-inferiorac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 20px;
+
+  }
+    .contenedorInferiorac {
+      border: 5px solid #ced4db;
+      padding: 10px;
+      background-color: #ced4db;
+      width: 50%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color:#333333;
+   
+    }
+  .contenedorInferior1ac{
+      border: 5px solid #49b1d7;
+      padding: 10px;
+      background-color: #49b1d7;
+      width: 50%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color:#49b1d7;
+      margin-top: 10px;
+  }
+.RedesSocialesac{
+  border: 5px solid #ced4db;  
+  background-color: #aacde9;
+  width: 100%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: auto;
+  color: #333;
+  margin-top: -180px;
+  display: flex;
+  justify-content:space-evenly;
+
+}
