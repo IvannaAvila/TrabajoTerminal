@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useEffect, useLayoutEffect, useState } from 'react'
+import { Router, useParams, useSearchParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function ImagenEncontrada() {
+  const [rutaString, setRutaString] = useState()
+    const location = useLocation();
+
+    useEffect(
+      () => {
+        const searchParams = new URLSearchParams(location.search);
+        const rutaImg = searchParams.get('rutaImg');
+        const rutaImgString = rutaImg ? JSON.stringify(rutaImg) : '';
+        setRutaString(rutaImgString.substring(1,rutaImgString.length-1))
+        console.log(rutaImgString)
+        
+      }
+    )
+  console.log('recibiendo imágen: '+ rutaString)
   return (
     <div className='imgencontrada'>Resultado
       <div className='muestraimagen'>
-       <img src="v2.jpg" alt="Vestido " style={{ width: '200px', height: '300px' }} className='img' />  
+        {
+          rutaString &&
+          <img src= {rutaString} alt="Vestido " style={{ width: '200px', height: '300px' }} className='img' />  
+        }
       </div>
     </div>
     
