@@ -25,7 +25,7 @@ function Seleccionarimg() {
   const buscar_imagen = () => {
     console.log('Buscando imágen...')
     // const ruta_base = 'http://20.124.148.180:5000/'
-    const ruta_base = 'http://clasificador-ropa-tt2.gja8grh6dbhgbjfd.eastus.azurecontainer.io:5000/'
+    const ruta_base = 'https://edtech-mx-solutions.ey.r.appspot.com/'
     const ruta_base2 = 'http://127.0.0.1:5000/'
     const formData = new FormData()
     
