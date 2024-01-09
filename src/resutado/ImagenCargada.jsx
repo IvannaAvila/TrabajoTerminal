@@ -17,7 +17,7 @@ function ImagenCargada() {
               src={URL.createObjectURL(imagenCargada)}
               alt={`Imagen Cargada`}
               className='result'
-              style={{ width: '100px', height: '200px' }}
+              style={{ width: '200px', height: '300px' }}
             />
           </div>
         )}

@@ -1,5 +1,4 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react'
-import { Router, useParams, useSearchParams } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
 function ImagenEncontrada() {

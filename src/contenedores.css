@@ -1,54 +1,65 @@
+/* CSS CONTENEDORES PANTALLA PRINCIPAL */
 
 
-
-/*////////////////////////////////// Estilos para contenedor ///////////////////////////////////////////////////////7*/
 .contenedor {
   border: 1px solid #49b1d7; /* Borde del contenedor */
-  padding: 20px; /* Espaciado interno del contenedor */
+  padding: 0px; /* Espaciado interno del contenedor */
   background-color: #49b1d7; /* Color de fondo del contenedor */
-
-  width: 800px; /* Ancho del contenedor */
-  height: 400px; /* Altura del contenedor */
+  background-image: url(/public/navega.jpeg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; /* Ancho del contenedor */
+  height: 90%; /* Altura del contenedor */
 }
 /* En estilos.css */
 .contenedor-padre {
   display: flex;
-  margin-top: 50px; 
-  height: 100vh; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+  margin: 5% 20%;
+  height:auto;
+  width: 90%; 
+  /*height: 100vh;  Esto hace que el contenedor ocupe toda la altura de la ventana */
   color: #333;
 }
 
 .contenedor {
   border: 1px solid #49b1d7;
-  padding: 20px;
+  padding:2% ;
   background-color: #49b1d7;
-  width:1200px;
-  height: 400px;
+  width:95%;
+  height: 50%;
 }
-.contenedorSuperior {
-  border: 1px solid #ced4db;
-  padding: 10px;
+.contenedor-superior {
   background-color: #ced4db;
-  width: 98%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
-  height: 90px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row; 
+  width: 100%;
+  height: 10%;
 }
+  .contenedorSuperior {
+    border: 1% solid #ced4db;
+    background-color: #ced4db;
+    width: 90%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+    height: 20%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+  }
   .seleccionarimg{
-    width:700px;
+    width:80%;
+    height:50%;
+
   }
     .busqueda{
       display: flex;
       align-items: left;
-      width: 200px;
-      height: 50px;
-      padding: 10px;
+      width:auto;
+      height:auto;
+      padding: 3% 3%;
       border: 1px solid #49b1d7;
       border-radius: 5px;
       background-color: #49b1d7;
-      margin-top:  1px;
+      margin-top:  5%;
+      margin-bottom: 5%;
       color: #333;
       align-items: center;
       font-size: medium;
@@ -57,7 +68,7 @@
     }
     .contbusqueda{
       display: flex;
-      width: 400px;
+      width: 50%;
     }
         .lado{
         display: flex;
@@ -91,6 +102,7 @@
       height:90px;
       background-color:#ced4db;
       display: flex;
+      margin-top:  3%;
     }
       .tomarfoto{
         display: flex;
@@ -112,21 +124,27 @@
   align-items: center; /* Centra verticalmente los elementos */
 }
 .contenedor2 {
-  border: 1px solid #ced4db;
-  padding: 10px;
-  background-color: #ced4db;
-  width: 20%; /* Ancho del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
-  height: 180px;/* Alto del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
+  border: 5px solid #333;
+  padding: 10px;  
+  width: 30%; /* Ancho del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
+  height: auto;/* Alto del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
   display: flex;
   margin-top: 30px;
   margin-left: 0px;  
+  color: #ced4db;
   flex-direction: column; /* Cambia la dirección del flujo a vertical */
+  align-items: center;
 } 
 .menu-vertical {
   display: flex;
-  flex-direction: column; /* Orienta los elementos verticalmente */
   align-items:first baseline; /* Alinea al principio verticalmente */
+  height: 80%;
+  width: 80%;
 }
+  .tipo{
+    height: 80%;
+    width: 80%;
+  }
 .menu-vertical a {
   text-decoration: none;
   background-color: #dbd3b6;
@@ -147,10 +165,10 @@
   padding: 10px;
   background-color: #ced4db;
   width: 80%; /* Ancho del contenedor 3 en relación al contenedor padre (ajusta según tus necesidades) */
-  height: 230px;/* Alto del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
+  height: 50%;/* Alto del contenedor 2 en relación al contenedor padre (ajusta según tus necesidades) */
   display: flex;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 10%;
+  margin-left: 10%;
   justify-content: center;
 }
   .fotos{
@@ -158,7 +176,7 @@
   }
     .img{
       justify-content: center;
-      margin: 10px 10px;
+      margin: 5% 5%;
     }
 
 
@@ -166,7 +184,7 @@
 
 .contenedorderesultados {
     border: 1px solid #49b1d7;
-    padding: 20px;
+    padding: 30%;
     background-color: #49b1d7;
     width:1200px;
     height: 400px;

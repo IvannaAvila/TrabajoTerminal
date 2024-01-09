@@ -7,7 +7,7 @@ class Contenedoracercade extends React.Component {
     
     return (
         <div className="contenedor-padreac">
-        <div className="contenedor">
+        <div className="contenedorac">
           <div className="contenedor-superiorac">
             <ContenedorSuperioracercade />
           </div>

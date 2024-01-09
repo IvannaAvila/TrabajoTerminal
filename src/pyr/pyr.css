@@ -1,4 +1,10 @@
+/* CSS PREGUNTAS Y RESPUESTAS */
+
 /*////////////////////////////////// Estilos para contenedor ///////////////////////////////////////////////////////7*/
+.pyr{
+  width: 100%;
+}
+
 .contenedorpyr {
     border: 1px solid #49b1d7; /* Borde del contenedor */
     padding: 20px; /* Espaciado interno del contenedor */
@@ -9,24 +15,23 @@
   /* En estilos.css */
   .contenedor-padrepyr {
     display: flex;
-    margin-top: -70px; 
-    height: 100vh; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+    height: 100%; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+    width: 100%;
   }
   
   .contenedorpyr {
     border: 1px solid #49b1d7;
-    padding: 20px;
     background-color: #49b1d7;
-    width:1200px;
-    height: 400px;
-   
+    width:100%;
+    height: 100%;
+    margin: 50px;
   }
 
   .contenedorSuperiorpyr {
     border: 5px solid #333333;
     padding: 10px;
     background-color: #ced4db;
-    width: 98%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
+    width: 95%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
     height: 50px;
     margin: 0 auto;
     display: flex;

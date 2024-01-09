@@ -4,7 +4,7 @@ import './pyr.css';
 
 function PyR() {
   return (
-    <div className="App">
+    <div className="pyr">
         <header className="App-header">
         <Contenedorpyr/>
         <Redespyr/>

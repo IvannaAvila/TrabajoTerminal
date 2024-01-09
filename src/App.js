@@ -12,8 +12,6 @@ import Resultado from './resutado/resultado';
 import ResultadoCaptura from './resutado/resultadocaptura';
 import Acercade from './acercade/acercade';
 import PyR from './pyr/PyR';
-import Crearcuenta from './crearcuenta/Crearcuenta';
-import Iniciosesion from './iniciosesion/Iniciosesion';
 const rootContainer = document.getElementById('root');
 const root = createRoot(rootContainer);
 
@@ -22,7 +20,6 @@ function App() {
     <div className="App">
  <URLProvider>
       <ImagenProvider>
-       
         <BrowserRouter>
           <BarraNavegacion />
           <header className="App-header">
@@ -32,8 +29,6 @@ function App() {
               <Route path="/resultadocaptura" element={<ResultadoCaptura/>} />
               <Route path="/acercade" element={<Acercade/>}/>
               <Route path="/preguntas-y-respuestas" element={<PyR/>}/>
-              <Route path="/crear-cuenta" element={<Crearcuenta/>}/>
-              <Route path="/inicio-sesion" element={<Iniciosesion/>}/>
             </Routes>
           </header>
         </BrowserRouter>
