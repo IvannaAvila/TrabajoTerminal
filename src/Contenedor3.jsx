@@ -7,6 +7,8 @@ function Contenedor3() {
   return (
     <div className="contenedor3">
       <div className='fotos'>
+      <h3>FORMATO IDEAL DE IMAGENES</h3>
+      <p>fondo uniforme y contrastante</p>
         <img src="v1.jpg" alt="v1" className='img'/>
         <img src="v5.jpg" alt="v5" className='img'/>
         <img src="v3.jpg" alt="v3" className='img'/>
