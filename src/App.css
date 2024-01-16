@@ -8,7 +8,7 @@
 
 .App-header {
   /*background-color: #dbd3b6;*/
-  background-image: url(/public/fondo.jpeg); 
+  /* background-image: url(/public/fondo.jpeg);  */
   width:auto ;
   height:100%;
   display: flex;
@@ -33,7 +33,7 @@
 }
 
 /* Estilos para la barra de navegación */
-nav {
+.nav {
   color: #333333; /* Cambia el color de texto según tus preferencias */
   padding: 10px 0; /* Añade espaciado interno para mejorar el aspecto */
   text-align: center; /* Centra el texto horizontalmente */
@@ -47,7 +47,7 @@ nav {
 
 }
 
-nav ul {
+.nav ul {
   list-style-type: none; /* Elimina los puntos de lista */
   padding: 0%;
   display: flex; /* Utiliza flexbox para mostrar los elementos en una fila horizontal */
@@ -55,13 +55,13 @@ nav ul {
   align-items: center;
 }
 
-nav li {
+.nav li {
   display: inline;
   margin-right:auto; /* Añade espacio entre elementos */
   width: 100%;
 }
 
-nav a {
+.nav a {
   text-decoration: none; /* Elimina el subrayado de los enlaces */
   color: #fff; /* Cambia el color de texto según tus preferencias */
   display: flex; /* Utiliza flexbox para centrar el contenido horizontalmente */
@@ -74,11 +74,11 @@ nav a {
 }
 
 
-nav a:hover {
+.nav a:hover {
   text-decoration: underline; /* Subraya el enlace al pasar el mouse por encima */
 }
 
-nav ul li:nth-child(1) a {
+.nav ul li:nth-child(1) a {
   background-color:  #49b1d7 ;
   color: #333333;
   border: 3px solid #49b1d7; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
@@ -88,7 +88,7 @@ nav ul li:nth-child(1) a {
   width:auto /* Ancho fijo para los botones (ajusta según tus necesidades) */
 }
 
-nav ul li:nth-child(2) a { 
+.nav ul li:nth-child(2) a { 
   background-color: #49b1d7 ;
   color: #333333;
   border: 3px solid #49b1d7; 
@@ -98,7 +98,7 @@ nav ul li:nth-child(2) a {
   width:auto; /* Ancho fijo para los botones (ajusta según tus necesidades) */
 }
 
-nav ul li:nth-child(3) a {
+.nav ul li:nth-child(3) a {
   background-color:#49b1d7 ;
   color: #333333;
   border: 3px solid #49b1d7; /* Borde de 3 píxeles de ancho, tipo sólido y color rojo (#ff5733) */
