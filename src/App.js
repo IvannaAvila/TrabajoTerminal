@@ -12,6 +12,9 @@ import Resultado from './resutado/resultado';
 import ResultadoCaptura from './resutado/resultadocaptura';
 import Acercade from './acercade/acercade';
 import PyR from './pyr/PyR';
+import ComponenteInicio from './Principal/ComponenteInicio';
+import ComponentePrincipal from './Principal/ComponentePrincipal';
+import ComponenteComoSubir from './Principal/ComponenteComoSubir';
 const rootContainer = document.getElementById('root');
 const root = createRoot(rootContainer);
 
@@ -24,7 +27,9 @@ function App() {
           <BarraNavegacion />
           <header className="App-header">
             <Routes>
-              <Route path="/" element={<Contenedor />} />
+              <Route path="/" element={<ComponenteInicio />} />
+              <Route path="/subir-imagen" element={<ComponentePrincipal/>} />
+              <Route path="/como-subir-imagen" element={<ComponenteComoSubir/>} />
               <Route path="/resultado" element={<Resultado/>} />
               <Route path="/resultadocaptura" element={<ResultadoCaptura/>} />
               <Route path="/acercade" element={<Acercade/>}/>
