@@ -24,7 +24,7 @@ function ImagenEncontrada() {
         Imagen Encontrada
       </h1>
       <div >
-        <div class="grid grid-cols-6 col-span-2   gap-2  ">
+        <div className="grid grid-cols-6 col-span-2   gap-2  ">
           {
             rutaString &&
             listRutes.length > 0 &&
