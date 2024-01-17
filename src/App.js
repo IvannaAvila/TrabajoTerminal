@@ -25,7 +25,7 @@ function App() {
       <ImagenProvider>
         <BrowserRouter>
           <BarraNavegacion />
-          <header className="App-header">
+          <header >
             <Routes>
               <Route path="/" element={<ComponenteInicio />} />
               <Route path="/subir-imagen" element={<ComponentePrincipal/>} />

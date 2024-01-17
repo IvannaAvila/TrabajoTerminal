@@ -11,7 +11,7 @@ export default function Redes() {
     <a href="https://www.facebook.com/pame.avila.984/?locale=es_LA" target="_blank">
       <img src="fb.png" alt="facebook" width={'30px'}/>
     </a>
-    Pame Avila
+    Pame Avila | Alan Carmona
     </div>
   )
 }

@@ -5,7 +5,7 @@ import './acercade.css';
 function Acercade() {
   return (
     <div className="App">
-        <header className="App-header">
+        <header >
         <Contenedoracercade/>
         <Redes/>
         </header>

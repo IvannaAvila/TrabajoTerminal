@@ -4,8 +4,8 @@ import React from 'react';
 
 function ContenedorSuperioracercade() {
   return (
-    <div className="contenedorSuperiorac">
-        <p>¿QUIENES SOMOS?</p>
+    <div className='text-3xl font-semibold text-black'>
+        <p><span className='text-primary'>¿</span>QUIÉNES SOMOS<span className='text-primary'>?</span></p>
     </div>
   );
 }

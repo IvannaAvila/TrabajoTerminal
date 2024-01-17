@@ -15,7 +15,7 @@ export default function Pregunta1() {
           <div className="pregunta-contenido">
             Desde la página de inicio del sitio web aparecerá un icóno con forma de cámara
             fotográfica, al seleccionarlo se abrirá un menú de búsqueda para fotos en su 
-            dispositivo, seleccionar la imágen con una prenda que abarque más del 70% de la
+            dispositivo, seleccionar la imagen con una prenda que abarque más del 70% de la
             foto y seleccione "buscar"
           </div>
         )}

@@ -77,8 +77,7 @@
     height: 95%;
   }
 .RedesSocialesac{
-  border: 5px solid #ced4db;  
-  background-color: #aacde9;
+  background-color: #AFAFAF;
   width: 100%; /* Ancho del contenedor 1 en relación al contenedor padre (ajusta según tus necesidades) */
   height: 50px;
   display: flex;

@@ -4,16 +4,13 @@ import ContenedorInferioracercade from './ContenedorInferioracercade';
 import ContenedorInferior1acercade from './ContenedorInferior1acercade';
 class Contenedoracercade extends React.Component {
   render() {
-    
+
     return (
-        <div className="contenedor-padreac">
-        <div className="contenedorac">
-          <div className="contenedor-superiorac">
-            <ContenedorSuperioracercade />
-          </div>
-          <div className="contenedor-inferiorac">
-            <ContenedorInferioracercade/>
-            <ContenedorInferior1acercade/>
+      <div >
+        <div className='container m-3'>
+          <div className='grid grid-cols-1 md:grid-cols-2 text-center justify-center'>
+            <ContenedorInferioracercade />
+            <ContenedorInferior1acercade />
           </div>
         </div>
       </div>

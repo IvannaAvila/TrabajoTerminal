@@ -6,7 +6,7 @@ function Seleccionarimg() {
   const inputRef = useRef(null);
   const [selectedImageName, setSelectedImageName] = useState('');
   const [mostrarBotonBuscar, setMostrarBotonBuscar] = useState(false);
-  const { imagenCargada, setImagenCargada } = useImagenContext();
+  const { imagenCargada, setImagenCargada, listRutes, setListRutes } = useImagenContext();
   const [cargando, setCargando] = useState(false);
   const [img_route, set_img_route] = useState(null)
   const router = useNavigate()
@@ -47,10 +47,6 @@ function Seleccionarimg() {
     fetch(ruta_base,
       {
         method: 'POST',
-        // headers: {
-        //   'Content-Type': 'multipart/form-data; boundary=<calculated when request is sent>',
-        //   'Content-Length': '<calculated when request is sent>'
-        // },
         body: formData
       })
       .then(async (response) => {
@@ -59,8 +55,10 @@ function Seleccionarimg() {
             const data = await response.json();
             console.log(data);
             console.log('Conexión exitosa');
-            set_img_route(data.img_similar);
-            router('/resultado?rutaImg=' + ruta_base + data.img_similar); // Actualiza ruta
+            set_img_route(data.img_similares);
+            setListRutes(data.img_similares);
+            console.log('Rutas de imágen: ' + data.img_similares);
+            router('/resultado?rutaImg=' + ruta_base); // Actualiza ruta
           } catch (error) {
             console.error('Error al procesar la respuesta JSON:', error);
           }
@@ -138,36 +136,7 @@ function Seleccionarimg() {
           }
         </div>
       </div>
-      {/* <div>
-      <input
-        type="file"
-        accept="image/*"
-        style={{ display: 'none' }}
-        ref={inputRef}
-        onChange={handleFileInputChange}
-      />
-      <div className="contenedorSuperior">
-        <button onClick={handleButtonClick} className="busqueda">
-          Seleccionar imagen:
-        </button>
-        <div className="contbusqueda">
-          {selectedImageName && (
-            <div className="lado">
-              <p>{selectedImageName}</p>
-              {mostrarBotonBuscar && (
-                <button onClick={buscar_imagen} className="botonbuscar">
-                  Buscar
-                </button>
-                
-                // <Link to="/resultado" className="botonbuscar">
-                //   Buscar
-                // </Link>
-              )}
-            </div>
-          )}
-        </div>
-      </div>
-    </div> */}
+      <div></div>
     </>
   );
 }
